@@ -53,6 +53,9 @@ nav {
           text-decoration: none;
           color: $black;
           font-size: 1.2rem;
+          &.active {
+            font-weight: 800;
+          }
           &:hover {
             color: $theme;
           }
