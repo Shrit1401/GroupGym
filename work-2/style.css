@@ -65,6 +65,12 @@ nav .right ul li a:hover {
   right: 50%;
 }
 
+.headline {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: "Krona One", sans-serif;
+}
+
 .home {
   position: relative;
   height: calc(100vh - 90px - 4rem);
@@ -75,11 +81,6 @@ nav .right ul li a:hover {
   margin-left: 2rem;
   margin-right: 2rem;
   border-radius: 64px;
-}
-.home .headline {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  font-family: "Krona One", sans-serif;
 }
 .home .inner {
   display: flex;
@@ -395,4 +396,64 @@ nav .right ul li a:hover {
   font-size: 1.2rem;
   font-weight: 400;
   opacity: 0.75;
+}
+
+.dashboard {
+  background-color: #f5f5f5;
+  margin-top: 2rem;
+  color: #080707;
+  padding: 2rem;
+  border-radius: 64px;
+}
+.dashboard ul {
+  margin-top: 2rem;
+}
+.dashboard ul li {
+  display: flex;
+  height: 10rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-top: 2px solid #080707;
+}
+.dashboard ul li img {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.dashboard ul li .name {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.4rem;
+}
+.dashboard ul li .status {
+  display: flex;
+  gap: 0.51rem;
+  align-items: center;
+}
+.dashboard ul li .dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: rgb(55, 255, 55);
+}
+.dashboard ul li .links {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-direction: column;
+}
+.dashboard ul li .links a {
+  color: #080707;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.dashboard ul li .links a:hover {
+  color: #fe8235;
+}
+.dashboard .equip {
+  font-size: 1.2rem;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
